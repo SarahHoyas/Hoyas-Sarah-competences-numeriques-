@@ -1,5 +1,4 @@
 <p> Certains quartiers à Bruxelles sont réputés comme étant mal famés, comme beaucoup d'autres grandes villes en Europe. Depuis près de trois mois, les faits liés à la drogue ne font que s'intensifier. Début avril, un laboratoire de drogue a d'ailleurs été démantelé à Saint-Gilles. </p>
-
 <p> Les données récoltées se situent entre 2010 et 2022, alors que Bruxelles est devenu un point de rencontre pour les trafiquants de drogue. Depuis, les fusillades ne cessent d'augmenter et le port d'Anvers ne désemplit pas de ces différentes substances illégales.</p>
 <p> Bruxelles est l'endroit préféré des dealers, puisque c'est dans cette ville que les drogues sont traitées et emballées. La capitale fournit à l'échelle nationale, mais également à l'échelle internationale. La ville est devenue le terrain des dealers qui tentent de se l'approprier afin de rivaliser avec leurs concurrents, ce qui engendre de nombreux règlements de compte. </p>  
 
