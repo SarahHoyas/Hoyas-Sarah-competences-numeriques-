@@ -1,7 +1,7 @@
 <script>
   import { onMount, onDestroy } from 'svelte';
 
-	import LoremIpsum from './LoremIpsum.svelte'
+import LoremIpsum from './LoremIpsum.svelte'
 
 	import Introduction from './Introduction.svelte'
 
@@ -13,14 +13,14 @@
 // le texte des boites
 	
   let stepsData = [
-    { "text": "En 2010,<mark style='background-color: blue; color:white; padding: 2px; border-radius: 5px;''><strong> Bruxelles centre </mark> </strong> recense 1515 faits, alors qu'Uccle est à 465 et Ixelles dépasse à peine les 380 faits "},
-	      { "text": "En 2015, <mark style='background-color: #4328E7; color:white; padding: 2px; border-radius: 5px;''> Bruxelles </mark> a atteint les 2070 faits, <mark style='background-color: #8D4FD7; color:white; padding: 2px; border-radius: 5px;''>Ixelles </mark> est passé au-dessus <mark style='background-color: #FF6283; color:white; padding: 2px; border-radius: 5px;''>d'Uccle </mark>dépassant les 700 faits; Uccle en recense un peu plus de 450" },
-		{ "text": "En 2020, la pandémie n'a pas arrangé la situation : Bruxelles a connu un pic en atteignant près de 3700 faits, alors qu'Ixelles se stabilise avec 800 faits et Uccle continue de décroitre en ayant près de 300 faits" },
-		{ "text": "L'année 2022 a montré une tendance similaire dans ces 3 villes, puisque les chiffres ne cessent de décroitre" },
+    { "text": "En 2010,<mark style='background-color: blue; color:white; padding: 2px; border-radius: 5px;''><strong> Bruxelles centre </mark> </strong> recense 1515 faits, alors qu'Uccle est Ã  465 et Ixelles dÃ©passe Ã  peine les 380 faits "},
+	      { "text": "En 2015, <mark style='background-color: #4328E7; color:white; padding: 2px; border-radius: 5px;''> Bruxelles </mark> a atteint les 2070 faits, <mark style='background-color: #8D4FD7; color:white; padding: 2px; border-radius: 5px;''>Ixelles </mark> est passÃ© au-dessus <mark style='background-color: #FF6283; color:white; padding: 2px; border-radius: 5px;''>d'Uccle </mark>dÃ©passant les 700 faits; Uccle en recense un peu plus de 450" },
+		{ "text": "En 2020, la pandÃ©mie n'a pas arrangÃ© la situation : Bruxelles a connu un pic en atteignant prÃ¨s de 3700 faits, alors qu'Ixelles se stabilise avec 800 faits et Uccle continue de dÃ©croitre en ayant prÃ¨s de 300 faits" },
+		{ "text": "L'annÃ©e 2022 a montrÃ© une tendance similaire dans ces 3 villes, puisque les chiffres ne cessent de dÃ©croitre" },
   ];
 
-	// Le "moteur" du scrollytelling qui utilise l'Intersection Observer API (en gros, le code observe ce qu'il y a à l'écran)
-	// ça on ne touche pas sinon tout se casse !
+	// Le "moteur" du scrollytelling qui utilise l'Intersection Observer API (en gros, le code observe ce qu'il y a Ã  l'Ã©cran)
+	// Ã§a on ne touche pas sinon tout se casse !
 
   onMount(() => {
     observer = new IntersectionObserver((entries) => {
@@ -42,7 +42,7 @@
   });
 </script>
 
-<h1>Nombre de faits liés à la drogue à Bruxelles entre 2010 et 2022</h1>
+<h1>Nombre de faits liÃ©s Ã  la drogue Ã  Bruxelles entre 2010 et 2022</h1>
 
 <Introduction/>
 
@@ -74,9 +74,9 @@
 <style>
 
 	/* Ici les valeurs pour l'ensemble de la page > 
-	peut nécessiter des modifs de couleurs dans Flourish 
+	peut nÃ©cessiter des modifs de couleurs dans Flourish 
 	pour s'assurer que le graphe soit tjs bien visible (titre de graphique noir sur
-	fond de page noir,ça ne se voit pas bien...*/
+	fond de page noir,Ã§a ne se voit pas bien...*/
 
 	:global(body) {
     background-color: white; 
@@ -141,7 +141,7 @@
     margin: auto;
   }
 
-	/* Pour adapter la vue en mobile: steps centrées par dessus le graphique */
+	/* Pour adapter la vue en mobile: steps centrÃ©es par dessus le graphique */
 
   @media screen and (max-width: 768px) {
     .section-container {
